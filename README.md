@@ -6,7 +6,7 @@ This project allows you to manage a song database by retrieving songs from Spoti
 
 Before running the application, make sure you have the following dependencies installed:
 
-- Python 3.x
+- Python 3.11.4
 - MySQL database server
 - Spotify API credentials
 - Telegram bot API token
