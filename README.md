@@ -2,6 +2,20 @@
 
 This project allows you to manage a song database by retrieving songs from Spotify and storing them in a MySQL database. It also provides the ability to send the added songs to a Telegram chat using a Telegram bot to download.
 
+## Motivation
+The motivation behind this project is to enable users to effortlessly download songs through Telegram and simultaneously maintain an organized record of their music collection. By automating the retrieval and storage process, the bot eliminates the need for manual data entry and ensures that each  song is seamlessly added to the database.
+
+## Features
+* Fetches songs from Spotify: The bot connects to the Spotify API and retrieves songs based on specified criteria, such as the number of songs to fetch.
+
+* Stores songs in a MySQL database: The bot utilizes MySQL Connector to establish a connection with a MySQL server and store the fetched songs in a dedicated database table.
+
+* Avoids duplicate entries: The bot checks the database for existing songs to prevent duplicates from being added.
+
+* Sends new songs to Telegram: The bot can send newly fetched songs to a specified Telegram chat, allowing users to receive updates and notifications about the latest additions to their song database.
+
+* Easy setup and configuration: The project provides clear instructions and a user-friendly interface to set up the Spotify API credentials and configure the MySQL database.
+
 ## Prerequisites
 
 Before running the application, make sure you have the following dependencies installed:
