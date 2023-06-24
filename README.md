@@ -10,6 +10,22 @@ Before running the application, make sure you have the following dependencies in
 - MySQL database server
 - Spotify API credentials
 - Telegram bot API token
+- 
+## Setup Spotify API
+
+To set up the Spotify API in the Spotify Developer Dashboard, follow these steps:
+
+1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and log in with your Spotify account.
+
+2. Click on "Create an App" or "Create a New App" to create a new application.
+
+3. Provide a name for your application and a short description.
+
+4. Set the redirect URI(s) for your application. This is the URL where Spotify will redirect users after they grant permission to your application. Set the redirect URI to `http://localhost:8888/callback`.
+ 
+5. Click on "Save", you will be redirected to the application dashboard.
+
+6. Click on "Settings" and note down the "Client ID" and "Client Secret" values. You will need these to authenticate and access the Spotify API in the file /classes/info.py.
 
 ## Installation
 
