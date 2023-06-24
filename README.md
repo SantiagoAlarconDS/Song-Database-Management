@@ -1,4 +1,4 @@
-# Song Database Management
+# Spotify Liked Playlist Database Management
 
 This project allows you to manage a song database by retrieving songs from Spotify and storing them in a MySQL database. It also provides the ability to send the added songs to a Telegram chat using a Telegram bot to download.
 
@@ -46,7 +46,7 @@ To set up the Spotify API in the Spotify Developer Dashboard, follow these steps
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Song-Database-Management.git
+   git clone git clone git@github.com:SantiagoAlarconDS/Spotify-Liked_Playlist-Database-Management.git
    ```
 
 2. Install the required dependencies:
