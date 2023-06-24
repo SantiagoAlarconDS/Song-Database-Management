@@ -41,21 +41,20 @@ To set up the Spotify API in the Spotify Developer Dashboard, follow these steps
    pip install -r requirements.txt
    ```
 
-3. Configure the credentials:
+3. Configuration:
 
    - Spotify API credentials: Open the `classes/info.py` file and replace the `spotify_client_id` and `spotify_client_secret` with your own Spotify API credentials.
 
-   - Telegram bot API token: Open the `classes/info.py` file and replace the `api_key` with your Telegram bot API token.
+   - Telegram bot: Open the `classes/info.py` file and replace the `chat_id`,`api_id`,`api_key`,`api_hash` with your Telegram bot API token.
+     
+   - MySQL credentials: Open the `app.py` file and replace the parameters `host`, `user` and `password` of SongsDatabase with your own database credentials.
+  
+   - Turn on MySQL server
 
-4. Set up the MySQL database:
-
-   - Create a new database named `songs`.
-   - Update the MySQL connection details (host, user, password) in the `classes/database.py` file according to your MySQL setup.
-
-5. Run the application:
+4. Run the application:
 
    ```bash
-   python main.py
+   python app.py
    ```
 
 ## Usage
