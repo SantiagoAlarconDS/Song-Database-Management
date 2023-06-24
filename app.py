@@ -6,8 +6,9 @@ from pytgbot import Bot
 
 if __name__ == "__main__":
     try:
-        # Create the database and table if they don't exist
+        # Change database credentials, in default is set to localhost and root user
         songs_db = SongsDatabase(host="localhost", user="root", password="XXXX")
+        
         songs_db.create_database()
         songs_db.create_table()
         number = int(input("Number of songs for each request: "))
