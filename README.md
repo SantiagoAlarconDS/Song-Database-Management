@@ -21,7 +21,7 @@ To set up the Spotify API in the Spotify Developer Dashboard, follow these steps
 
 3. Provide a name for your application and a short description.
 
-4. Set the redirect URI(s) for your application. This is the URL where Spotify will redirect users after they grant permission to your application. Set the redirect URI to `http://localhost:8888/callback`.
+4. Set the redirect URI(s) for your application. This is the URL where Spotify will redirect users after they grant permission to your application. In this case set it to `http://localhost:8888/callback`.
  
 5. Click on "Save", you will be redirected to the application dashboard.
 
