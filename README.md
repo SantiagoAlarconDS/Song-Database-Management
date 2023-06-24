@@ -10,7 +10,7 @@ Before running the application, make sure you have the following dependencies in
 - MySQL database server
 - Spotify API credentials
 - Telegram bot API token
-- 
+
 ## Setup Spotify API
 
 To set up the Spotify API in the Spotify Developer Dashboard, follow these steps:
