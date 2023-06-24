@@ -6,7 +6,7 @@ def get_songs(SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET, n_songs, scope="user-lib
         raise ValueError("Number of songs cannot exceed 50 in the request")
     try:
         sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIPY_CLIENT_ID,
-                             client_secret=SPOTIPY_CLIENT_SECRET, scope=scope, redirect_uri='http://localhost/'))
+                             client_secret=SPOTIPY_CLIENT_SECRET, scope=scope, redirect_uri='http://localhost:8888/callback'))
 
         results = sp.current_user_saved_tracks(limit=n_songs)
         liked = []
